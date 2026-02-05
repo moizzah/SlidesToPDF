@@ -1,0 +1,75 @@
+# =====================================
+# Virtual Environment (PRIVATE)
+# =====================================
+GSlidestoPDF/
+.venv/
+venv/
+env/
+ENV/
+pyvenv.cfg
+bin/
+lib/
+include/
+share/
+
+# =====================================
+# Python cache & build artifacts
+# =====================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+build/
+dist/
+
+# =====================================
+# Jupyter / Interactive work
+# =====================================
+.ipynb_checkpoints/
+
+# Ignore specific notebooks (PRIVATE)
+tutorial.ipynb          # ← placeholder
+VRTest.ipynb
+
+# =====================================
+# Generated outputs (LARGE / PRIVATE)
+# =====================================
+slides_out/
+PDF_Slides/
+
+# Additional output folders (placeholders)
+
+
+# =====================================
+# Environment variables & secrets
+# =====================================
+.env
+.env.*
+*.key
+*.pem
+*.crt
+*.p12
+*.secrets
+
+# =====================================
+# Playwright / browser artifacts
+# =====================================
+.playwright/
+trace.zip
+*.har
+
+# =====================================
+# Logs & temp files
+# =====================================
+*.log
+*.tmp
+
+# =====================================
+# OS / Editor clutter
+# =====================================
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
