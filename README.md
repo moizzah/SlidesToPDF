@@ -1,6 +1,6 @@
 # Export Embedded Slide Decks to PDF using Python & Playwright
 
-A reproducible, automation-friendly pipeline for exporting **restricted or embedded slide decks**
+A reproducible, automation-friendly pipeline for exporting **embedded slide decks**
 from a webpage into a single PDF using browser automation.
 
 This repository demonstrates a practical pattern for capturing browser-rendered slides
@@ -17,6 +17,7 @@ In many real-world settings, slide decks cannot be exported directly:
 - content may only be accessible via an embedded viewer
 - decks may be too large for manual workflows
 - slides may be rendered dynamically inside an iframe
+- slides may not be available to view without an active internet connection
 
 Rather than relying on platform-specific export features, this project
 operates at the **browser level**, capturing what is actually rendered
@@ -184,7 +185,7 @@ The repository intentionally ignores:
 - virtual environments
 - notebook checkpoints
 
-This keeps the repository lightweight, shareable, and safe to publish.
+This keeps the repository lightweight, shareable, and safe to publish for your use.
 
 ---
 
@@ -194,7 +195,7 @@ This approach is intended for legitimate use cases such as:
 - exporting your own content
 - working with decks you are authorised to access
 - creating personal archives or internal documentation
-- - Offline review and accessibility
+- Offline review and accessibility
 - Research archiving and reproducibility
 - QA and documentation workflows
 
