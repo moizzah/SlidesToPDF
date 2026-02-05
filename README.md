@@ -194,9 +194,19 @@ This approach is intended for legitimate use cases such as:
 - exporting your own content
 - working with decks you are authorised to access
 - creating personal archives or internal documentation
+- - Offline review and accessibility
+- Research archiving and reproducibility
+- QA and documentation workflows
 
 Always ensure you have appropriate permission before capturing
 or redistributing slide content.
+
+This project is intended for legitimate use cases such as:
+
+- It assumes the user has lawful access to the embedded content.
+- It does not attempt to bypass authentication, encryption, or DRM.
+
+Users are responsible for complying with applicable terms of service and copyright restrictions.
 
 ---
 
